@@ -130,12 +130,12 @@ zh: &DEFAULT_ZH
   undefined_wpm         : "未标注变量 每分钟多少字 于 _config.yml"
 zh-CN:
   <<: *DEFAULT_ZH
-zh-US:
+zh-CHS:
   <<: *DEFAULT_ZH
-zh-CA:
+zh-HK:
   <<: *DEFAULT_ZH
-zh-GB:
+zh-TW:
   <<: *DEFAULT_ZH
-zh-AU:
+zh-SG:
   <<: *DEFAULT_ZH
 # --------------
