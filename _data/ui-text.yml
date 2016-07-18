@@ -103,7 +103,7 @@ fr-CH:
   <<: *DEFAULT_FR
 
 # Another locale
-cn: &DEFAULT_CN
+zh: &DEFAULT_ZH
   page                  : "页面"
   pagination_previous   : "返回"
   pagination_next       : "前进"
@@ -128,14 +128,14 @@ cn: &DEFAULT_CN
   email_label           : "邮件"
   recent_posts          : "最近发布"
   undefined_wpm         : "未标注变量 每分钟多少字 于 _config.yml"
-cn-CN:
-  <<: *DEFAULT_CN
-cn-US:
-  <<: *DEFAULT_CN
-cn-CA:
-  <<: *DEFAULT_CN
-cn-GB:
-  <<: *DEFAULT_CN
-cn-AU:
-  <<: *DEFAULT_CN
+zh-CN:
+  <<: *DEFAULT_ZH
+zh-US:
+  <<: *DEFAULT_ZH
+zh-CA:
+  <<: *DEFAULT_ZH
+zh-GB:
+  <<: *DEFAULT_ZH
+zh-AU:
+  <<: *DEFAULT_ZH
 # --------------
