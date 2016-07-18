@@ -103,4 +103,39 @@ fr-CH:
   <<: *DEFAULT_FR
 
 # Another locale
+cn: &DEFAULT_CN
+  page                  : "页面"
+  pagination_previous   : "返回"
+  pagination_next       : "前进"
+  breadcrumb_home_label : "主页"
+  breadcrumb_separator  : "/"
+  toc_label             : "在这个页面"
+  ext_link_label        : "链接"
+  less_than             : "少于"
+  minute_read           : "分钟阅读"
+  share_on_label        : "分享于"
+  meta_label            :
+  tags_label            : "标签："
+  categories_label      : "类别:"
+  date_label            : "更新:"
+  comments_label        : "评论一下"
+  more_label            : "了解更多"
+  related_label         : "你也许也喜欢"
+  follow_label          : "跟随:"
+  feed_label            : "Feed"
+  powered_by            : "助力于"
+  website_label         : "网站"
+  email_label           : "邮件"
+  recent_posts          : "最近发布"
+  undefined_wpm         : "未标注变量 每分钟多少字 于 _config.yml"
+cn-CN:
+  <<: *DEFAULT_CN
+cn-US:
+  <<: *DEFAULT_CN
+cn-CA:
+  <<: *DEFAULT_CN
+cn-GB:
+  <<: *DEFAULT_CN
+cn-AU:
+  <<: *DEFAULT_CN
 # --------------
