@@ -3,7 +3,7 @@ title: "2016 Digital China Internship"
 layout: archive
 permalink: /me/
 header:
-  image: unsplash-image-9.jpg
+  image: DC_Top_image.jpg
 ---
 {% include toc title="Unique Title" icon="file-text" %}
 
