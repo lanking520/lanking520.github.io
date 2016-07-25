@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: DC_Top_image.jpg
 ---
-{% include toc title="Unique Title" icon="file-text" %}
+{% include toc title="Table of Content" icon="file-text" %}
 
 Software Testing Intern (Team iQuicker)
 
