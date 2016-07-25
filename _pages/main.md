@@ -6,7 +6,7 @@ header:
   overlay_image: Home_image.jpg
   cta_label: "<i href='Digital_China'></i> Read More"
   cta_url: "/me/"
-  caption: "My Opinion"
+  caption: 
 excerpt: 'Simplifying the process of coding, creating secure and safety operating system.<br /> <small><br />'
 feature_row:
   - image_path: DC_project.png
