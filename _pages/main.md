@@ -10,10 +10,10 @@ header:
 excerpt: 'Simplifying the process of coding, creating secure and safety operating system.<br /> <small><br />'
 feature_row:
   - image_path: mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    alt: "Digital_China"
+    title: "2016 Digital China Project"
+    excerpt: "Creating the automated test program to test the functionailities of all terminals. Focus on the Security and stability of the program"
+    url: "/Digital_China/"
     btn_label: "Learn More"
   - image_path: mm-responsive-feature.png
     alt: "fully responsive"
