@@ -1,5 +1,7 @@
 ---
 title: "2016 Digital China Internship"
+layout: archive
+permalink: /me/
 header:
   image: unsplash-image-9.jpg
 tags:
