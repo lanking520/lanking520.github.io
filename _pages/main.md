@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: mm-home-page-feature.jpg
+  overlay_image: Home_image.jpg
   cta_label: "<i href='Digital_China'></i> Read More"
   cta_url: "/me/"
   caption:
