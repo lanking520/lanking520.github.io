@@ -9,7 +9,7 @@ header:
   caption:
 excerpt: 'Simplifying the process of coding, creating secure and safety operating system.<br /> <small><br />'
 feature_row:
-  - image_path: mm-customizable-feature.png
+  - image_path: DC_project.png
     alt: "Digital_China"
     title: "2016 Digital China Project"
     excerpt: "Creating the automated test program to test the functionailities of all terminals. Focus on the Security and stability of the program"
