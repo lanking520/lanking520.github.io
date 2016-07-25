@@ -1,7 +1,7 @@
 ---
 title: "2016 Digital China Internship"
 layout: splash
-permalink: /me/
+permalink: /Digital_China/
 header:
   overlay_color: "#5e616c"
   overlay_image: DC_Top_image.jpg
