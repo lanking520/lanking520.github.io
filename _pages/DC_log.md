@@ -1,6 +1,6 @@
 ---
 title: "2016 Digital China Internship"
-layout: archive
+layout: splash
 permalink: /me/
 header:
   overlay_color: "#5e616c"
