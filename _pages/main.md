@@ -1,4 +1,5 @@
 ---
+title: "Listen Think Solve"
 layout: splash
 permalink: /
 header:
