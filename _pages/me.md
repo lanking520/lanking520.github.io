@@ -1,5 +1,5 @@
 ---
-title: " I am Listening --------> Thinking --------> Solving"
+title: " I am Listening -----> Thinking -----> Solving"
 layout: splash
 permalink: /me/
 header:
