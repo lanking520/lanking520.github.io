@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "About Me"
-    url: /me/
-
   - title: "2016 Digital China"
     url: /Digital_China/
+  
+  - title: "About Me"
+    url: /me/
