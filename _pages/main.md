@@ -16,10 +16,10 @@ feature_row:
     url: "/Digital_China/"
     btn_label: "Learn More"
   - image_path: mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    alt: "Cyton Veta"
+    title: "BEng Final Year Project"
+    excerpt: "An approach to the hardware system. Robotic arm Manipulated by the cloud controller and operated by the multi-thread Operating System"
+    url: "/Cyton/"
     btn_label: "Learn More"
   - image_path: mm-free-feature.png
     alt: "100% free"
