@@ -16,7 +16,7 @@ feature_row:
     excerpt: "Creating the automated test program to test the functionailities of all terminals. Focus on the Security and stability of the program"
     url: "/Digital_China/"
     btn_label: "Learn More"
-  - image_path: Cyton_small.png
+  - image_path: Cyton_small.jpg
     alt: "Cyton Veta"
     title: "BEng Final Year Project"
     excerpt: "An approach to the hardware system. Robotic arm Manipulated by the cloud controller and operated by the multi-thread Operating System"
