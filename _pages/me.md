@@ -1,5 +1,5 @@
 ---
-title: "Qing Lan: Dreamer ---> Discoverer ---> Developer "
+title: "I am a Dreamer --> Discoverer --> Developer "
 layout: splash
 permalink: /me/
 header:
