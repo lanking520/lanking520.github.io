@@ -1,5 +1,5 @@
 ---
-title: " I am Listening -----> Thinking -----> Solving"
+title: "Qing Lan: Dreamer ---> Discoverer ---> Developer "
 layout: splash
 permalink: /me/
 header:
