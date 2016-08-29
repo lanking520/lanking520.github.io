@@ -18,3 +18,12 @@ return new int[] { i, j };
 ```
 
 or assign them manually
+
+Hashmap would reduce the searching time of an element to O(1).
+
+```java
+Map<Integer, Integer> map = new HashMap<>() //Creating a hashmap
+map.put(nums[i], i) //put value and key to it
+map.containsKey(complement) //check if there is a key regarding to complement
+map.get(complement) //get the key of this value
+```
