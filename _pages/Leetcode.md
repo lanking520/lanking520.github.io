@@ -58,7 +58,7 @@ else
 - Write Pseudo code 
 - Start coding
 
-### Algorithm Thinking
+#### Algorithm Thinking
 ```
 
 Take the small half of the substring: length = (int) string.length()/2
@@ -101,6 +101,43 @@ public class Solution {
             }
         }
     return s.length();    
+    }
+}
+```
+#### Working but time exceeded!!!!
+Considering we have massive string list
+```
+asldaslkdjaslkjdaksldklasjdlsjdlkajld...
+```
+We will loop it until the final combination!
+```java
+public class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int length = s.length();
+        boolean repeat = false;
+        for(;length >=1; length--)
+        {
+            for (int i = 0; i+ length<=s.length(); i++)
+            {
+                String my_string = s.substring(i, i+length);
+                for (int j = 0; j < my_string.length() && repeat == false; j++)
+                {
+                    for (int k = j+1; k < my_string.length() && repeat == false;k++)
+                    {
+                        if(my_string.charAt(j) == my_string.charAt(k))
+                        {
+                            repeat = true;
+                        }
+                    }
+                }
+                if (!repeat)
+                {
+                    return length;
+                }
+                repeat = false;
+            }
+        }
+        return 0;
     }
 }
 ```
