@@ -50,3 +50,11 @@ else
   int x = 0;
 }
 ```
+
+### Question 3 2016-09-07 (Algorithm First)
+
+## Do this project into the following steps:
+- Think the algorithm first
+- Write Pseudo code 
+- Start coding
+
