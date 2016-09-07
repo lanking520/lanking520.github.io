@@ -105,6 +105,13 @@ public class Solution {
 }
 ```
 #### Working but time exceeded!!!!
+
+Thinking:
+
+Starting from the longest substring
+find duplicated letter, if there is, drop this
+loop until 0 letter remains 
+
 Considering we have massive string list
 ```
 asldaslkdjaslkjdaksldklasjdlsjdlkajld...
