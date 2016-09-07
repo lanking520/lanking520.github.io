@@ -116,7 +116,7 @@ Considering we have massive string list
 ```
 asldaslkdjaslkjdaksldklasjdlsjdlkajld...
 ```
-We will loop it until the final combination! (o(n^4))!!!!!
+Brute Force: We will loop it until the final combination! (o(n^4))!!!!!
 ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -148,3 +148,9 @@ public class Solution {
     }
 }
 ```
+#### Sliding Window
+Use Hashset to open and close the boundary. Keep a maximum of the length, move through all of the character
+```java
+Set<Character> set = new HashSet<>();
+```
+[i,j] two variable control the front and backside of the boundary. Check if j* contains in the set and decide whether i++
