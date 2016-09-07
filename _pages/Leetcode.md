@@ -53,8 +53,54 @@ else
 
 ### Question 3 2016-09-07 (Algorithm First)
 
-## Do this project into the following steps:
+#### Do this project into the following steps:
 - Think the algorithm first
 - Write Pseudo code 
 - Start coding
 
+### Algorithm Thinking
+```
+
+Take the small half of the substring: length = (int) string.length()/2
+
+for length; length >= 1; length—
+	for i =0; i+length < size; i++
+		for j = i+2length; j <size; j++
+		compare string (i—i+length) and string (i+length—i+2length) (if i+ 2length) < size
+			compare success>=return the length
+		else: break
+	
+return 0
+
+
+public String substring(int beginIndex, int endIndex)
+```
+#### Howerver Read the question carefully!!!
+Solution for finding no more than 2 longest substring
+```java
+public class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int length = (int) (s.length() / 2);
+        int counter = 0;
+        for (;length >= 1;length--)
+        {
+            for(int i = 0; i+length <= s.length();i++)
+            {
+                for(int j= i; j+length <= s.length(); j++)
+                {
+                    if(s.substring(i, i+length).equals(s.substring(j, j+length)))
+                    {
+                        counter += 1;
+                    }
+                }
+                if (counter == 2)
+                {
+                    return length;
+                }
+                counter=0;
+            }
+        }
+    return s.length();    
+    }
+}
+```
