@@ -109,7 +109,7 @@ Considering we have massive string list
 ```
 asldaslkdjaslkjdaksldklasjdlsjdlkajld...
 ```
-We will loop it until the final combination!
+We will loop it until the final combination! (o(n^4))!!!!!
 ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
