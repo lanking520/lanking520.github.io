@@ -194,3 +194,7 @@ For a1 in array()
 		int ans = Math.max(Math.min(a1,a2) * (a2i - a1i));
 
 complex n^2 (Time Limit Exceeded)
+
+#### (Answer) Two Pointer Approach
+Always finding the possible maximum result
+#### Remember to place "()" in your formula, it's important! => "(max_b - min_b) >= 1" Not the same as "max_b - min_b >= 1"
