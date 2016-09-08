@@ -182,3 +182,13 @@ Use Hashset to open and close the boundary. Keep a maximum of the length, move t
 Set<Character> set = new HashSet<>();
 ```
 [i,j] two variable control the front and backside of the boundary. Check if j* contains in the set and decide whether i++
+
+### Question 11 Find the large container
+
+#### Brute Force Solution
+
+For a1 in array()
+	for a2 in array()
+		int ans = Math.max(Math.min(a1,a2) * (a2i - a1i));
+
+complex n^2 (Time Limit Exceeded)
