@@ -188,7 +188,9 @@ Set<Character> set = new HashSet<>();
 #### Brute Force Solution
 
 For a1 in array()
+
 	for a2 in array()
+	
 		int ans = Math.max(Math.min(a1,a2) * (a2i - a1i));
 
 complex n^2 (Time Limit Exceeded)
