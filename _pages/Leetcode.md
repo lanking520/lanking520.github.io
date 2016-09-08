@@ -4,6 +4,34 @@
 
 ### Question 1 2016-08-29
 
+#### My Submission
+```java
+public class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int sum = target + 1;
+        int[] result = {0,0};
+        for (int i = 0; sum != target; i++)
+        {
+            for (int j = i+1; j< nums.length; j++)
+            {
+                sum = nums[i]+nums[j];
+                if (sum == target)
+                {
+                    result[0] = i;
+                    result[1] = j;
+                    break;
+                }
+                else
+                {
+                    sum = 0;
+                }
+            }
+        }
+        return result;
+    }
+}
+```
+
 Remember to throw the exception if there is one:
 
 ```java
