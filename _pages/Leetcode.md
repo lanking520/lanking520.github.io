@@ -201,3 +201,6 @@ Always finding the possible maximum result.
 Two Pointer means: there is always two pointer reduce the arraysize to find the best result.
 
 #### Remember to place "()" in your formula, it's important! => "(max_b - min_b) >= 1" Not the same as "max_b - min_b >= 1"
+
+### Easy 3 Medium 2
+"Do not allocate extra space for another array" Statement means keep the original memory (no new array, set, etc)
