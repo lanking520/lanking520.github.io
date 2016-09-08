@@ -196,5 +196,8 @@ For a1 in array()
 complex n^2 (Time Limit Exceeded)
 
 #### (Answer) Two Pointer Approach
-Always finding the possible maximum result
+Always finding the possible maximum result.
+
+Two Pointer means: there is always two pointer reduce the arraysize to find the best result.
+
 #### Remember to place "()" in your formula, it's important! => "(max_b - min_b) >= 1" Not the same as "max_b - min_b >= 1"
