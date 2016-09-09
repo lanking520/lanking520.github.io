@@ -204,3 +204,5 @@ Two Pointer means: there is always two pointer reduce the arraysize to find the 
 
 ### Easy 3 Medium 2
 "Do not allocate extra space for another array" Statement means keep the original memory (no new array, set, etc)
+#### Q26 Two pointer
+Always keeps a slow tracker, wait until the fast tracker reach to some different value and move to the next tracker to replace with the fast tracker
