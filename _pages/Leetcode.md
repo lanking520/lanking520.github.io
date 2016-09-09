@@ -206,3 +206,57 @@ Two Pointer means: there is always two pointer reduce the arraysize to find the 
 "Do not allocate extra space for another array" Statement means keep the original memory (no new array, set, etc)
 #### Q26 Two pointer
 Always keeps a slow tracker, wait until the fast tracker reach to some different value and move to the next tracker to replace with the fast tracker
+#### Q 15 3 Sums
+My solution
+```java
+public class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Map<Integer, Integer> map = HashMap<>();
+        List<List<Integer>> solution = new List<List<Integer>>();
+        for (Integer i : nums)
+        {
+            if(map.containsKey(i))
+            {
+                map.put(i,map.get(i) +1);
+            }
+            else
+            {
+                map.put(i, 1);
+            }
+        }
+        int[] nums_list = new int[]{map.keySet()};
+        for (Integer i : nums_list)
+        {
+            for(int counter = map.get(i); counter > 0; counter--)
+            {
+                List<Integer> temp = new List<>();
+                if (counter == 3)
+                {
+                    if (i * counter == 0)
+                    {
+                        temp.add(i);
+                        temp.add(i);
+                        temp.add(i);
+                        solution.add(temp);
+                    }
+                }
+                if (counter == 2)
+                {
+                    if(map.containsKey(0 - i * counter))
+                    {
+                        temp.add(map.get(0 - i * counter));
+                        temp.add(i);
+                        temp.add(i);
+                    }
+                }
+                if (counter == 1)
+                {
+                    int result = i;
+                    
+                }
+            }
+            map.remove(i);
+        }
+    }
+}
+```
