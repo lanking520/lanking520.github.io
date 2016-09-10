@@ -268,7 +268,57 @@ For the official Soltion
 - i <= j <= k
 - use < > = to let them get close to the target
 - O(n^2)
-
+```java
+public class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> result = new LinkedList<>();
+        int target = 0;
+        if(nums.length < 3)
+        {
+            return result;
+        }
+        Arrays.sort(nums);
+        // O(nlogn) already
+        boolean i_add = false;
+        for(int i = 0; i < nums.length -1; i++)
+        {
+            int k = nums.length - 1;
+            int j = (i_add) ? i-1 : i+1;
+            i_add = false;
+            if(nums[i] != nums[i+1])
+            {
+                while (j < k)
+                {
+                    int sum = nums[i] + nums[j] + nums[k];
+                    if (sum < target && j < k)
+                    {
+                        j++;
+                    }
+                    if (sum > target && j < k)
+                    {
+                        k--;
+                    }
+                    if (sum == target && j < k)
+                    {
+                        List<Integer> temp = new LinkedList<>();
+                        temp.add(nums[i]);
+                        temp.add(nums[j]);
+                        temp.add(nums[k]);
+                        result.add(temp);
+                        j++;
+                        k--;
+                    }
+                }
+            }
+            else
+            {
+                i_add = true;
+            }
+        }
+        return result;
+    }
+}
+```
 ##### My solution
 - Sort the array into {i : nums_of_i} Hash table (Expected O(n))
 - Create a nSum DP
