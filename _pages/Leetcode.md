@@ -260,3 +260,20 @@ public class Solution {
     }
 }
 ```
+For the official Soltion
+##### Algorithm
+- Sort the array First
+- Let i be the slowest tracker (however to avoid duplication)
+- j to be the smaller tracker and k to be bigger tracker
+- i <= j <= k
+- use < > = to let them get close to the target
+- O(n^2)
+
+##### My solution
+- Sort the array into {i : nums_of_i} Hash table (Expected O(n))
+- Create a nSum DP
+- For nSum DP, set the target as looping value i->n, reduce the num_of_i in the next nSum function (Dimension Reduced)
+- until reach to the dimension of two sum, loop through all variables (Worst case possible n), do Set_contains Function (O(n))
+- Send result to the array
+- Get the returned result and add i in each result
+- If there is n sum (Complexity O(n^(n-1)))
