@@ -327,3 +327,8 @@ public class Solution {
 - Send result to the array
 - Get the returned result and add i in each result
 - If there is n sum (Complexity O(n^(n-1)))
+
+### Question 31 Next Permutation:
+numbers such as: 
+123 could be rearranged like 132 (which is the next bigger number)
+if the case could not be maintained keep the minimum (i.e: asending order)
