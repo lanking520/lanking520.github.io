@@ -129,3 +129,34 @@ Lanking-3:Ocaml lanking$ ./wordcount < wordcount.mll
 1 Lexing
 1 A
 ```
+## Part 3: The calculator
+### Thinking
+Firstly we need to understand what the funcationality of each file.
+### Main Code
+#### ast.mli
+```ocaml
+type operator = Add | Sub | Mul | Div
+
+type expr = 
+    Binop of expr * operator * expr 
+    | Lit of int
+    | Seq of expr * expr
+    | Asn of int * expr
+    | Var of int
+```
+#### scanner.mll
+```ocaml
+{ open Parser}
+
+rule token = 
+  parse [' ' '\t' '\r' '\n'] {token lexbuf}
+  | '+'                      {PLUS}
+  | '-'                      {MINUS}
+  | '*'                      {TIMES}
+  | '/'                      {DIVIDE}
+  | '='			     {EQUAL}
+  | ','			     {COMMA}
+  | ['0' - '9']+ as lit      {LITERAL(int_of_string lit)}
+  | '$'['0' - '9'] as lit    {VARIABLE(int_of_char lit.[1] - 48)}
+  | eof                      {EOF}
+```
