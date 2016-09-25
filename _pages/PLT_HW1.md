@@ -195,7 +195,7 @@ let rec eval = function
   Lit(x) -> x
 | Var(a) -> Array.get var_array a
 | Seq(e1, e2) -> let v1 = eval e1 and v2 = eval e2 in v1 - v1 + v2
-| Asn(e1, e2) -> Array.set var_array e1 (eval e2); eval e2
+| Asn(e1, e2) -> let v1 = eval e2 in Array.set var_array e1 v1; v1
 | Binop(e1, op, e2) ->
     let v1 = eval e1 and v2 = eval e2 in 
     match op with
@@ -209,4 +209,19 @@ let _ =
   let expr = Parser.expr Scanner.token lexbuf  in
   let result = eval expr in
   print_endline (string_of_int result)
+```
+### Testing Result:
+```
+Lanking-3:Calc lanking$ ./calc
+3+5,4+6,7+9
+16
+Lanking-3:Calc lanking$ ./calc
+$1 = 2, $3 = $2 = 4, $1 + $3 * $2
+18
+Lanking-3:Calc lanking$ ./calc
+$0 = 5, $5 = 7, 3+8 + $1, $5 + $6
+7
+Lanking-3:Calc lanking$ ./calc
+$2 = 1, $2 = $2 +4
+5
 ```
