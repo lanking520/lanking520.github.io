@@ -61,3 +61,71 @@ let wordcounts = List.sort(fun (c1,_) (c2,_) -> Pervasives.compare c2 c1) tuple_
 List.iter (fun (a,b) -> print_endline ((string_of_int a)^" "^b^"\n")) wordcounts
 }
 ```
+### Testing Result:
+```
+Lanking-3:Ocaml lanking$ ./wordcount < wordcount.mll
+14 word
+7 map
+7 let
+7 in
+7 count
+7 StringMap
+5 my
+4 tuple
+4 token
+4 list
+4 fun
+4 c
+3 next
+3 lexbuf
+3 l
+3 a
+3 Word
+3 List
+3 EOF
+2 wordlist
+2 wordcounts
+2 value
+2 string
+2 s
+2 of
+2 num
+2 key
+2 fold
+2 b
+2 add
+1 z
+1 with
+1 type
+1 then
+1 stdin
+1 sort
+1 rule
+1 rec
+1 print
+1 parse
+1 n
+1 module
+1 mem
+1 match
+1 left
+1 iter
+1 int
+1 if
+1 from
+1 find
+1 eof
+1 endline
+1 empty
+1 else
+1 compare
+1 channel
+1 as
+1 Z
+1 String
+1 Pervasives
+1 Map
+1 Make
+1 Lexing
+1 A
+```
