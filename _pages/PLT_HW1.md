@@ -32,9 +32,9 @@ one, two, three, and four
 ```
 
 ## Part 2: Word Frequency Counter
-
+### Thinking
+with a empty string list provided, the map should be implemented to count all words. The general idea is to create a recursion function to loop all words. Everytime pass in the remaining string list and the map. Then, exporting the map to tuple list using map.fold to loop. Finally sort it and print them all.
 ### Main code
-
 ```ocaml
 { type token = EOF | Word of string }
 rule token = parse
