@@ -332,22 +332,3 @@ public class Solution {
 numbers such as: 
 123 could be rearranged like 132 (which is the next bigger number)
 if the case could not be maintained keep the minimum (i.e: asending order)
-```
-Function Shortest_Path(Graph, source, target):
-
-	For each Node in Graph:
-		Node.distance = null 	 	// set distance to null as undefined
-		Node.prev = null			//  there is no node before it
-
-	Source.distance = 0				// Set the source Node distance as 0
-
-	While Graph.size is not 0:
-		Node a = min(Node.distance) 		// source node selected first
-		If (a == target) {found = true, break}	// we find the target node
-		For Node b connected to a:
-			Distance = a.distance + Distance(a,b)
-			if (Distance < b.distance || b.distance == null)  // update
-				b.distance = Distance
-				b.prev = a
-
-```
