@@ -9,7 +9,8 @@ CREATE TABLE student(
 	concentration text,
 	dept_name references department not null,
 	CHECK( 
-		(res_field is not null or concentration is not null)
+		((res_field is null and concentration is not null) or
+		(res_field is not null and concentration is null))
 		and (age > 18)
 		)
 );
