@@ -5,5 +5,4 @@ Name: Qing Lan	UNI: ql2282
 [0-9]*(\.[0-9]*|\.[0-9]+e(\+|\-)?[0-9]+|[0-9]+e(\+|\-)?[0-9]+)
 ```
 ### Test cases
-1. passed 0.5e-15 passed .3e+3 passed .2 passed 1e5 passed 3.5e-4 passed
-5. 42 not passed
+1. passed 0.5e-15 passed .3e+3 passed .2 passed 1e5 passed 3.5e-4 passed 42 passed . not passed
