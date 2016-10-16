@@ -4,7 +4,7 @@ layout: splash
 permalink: /Cyton/
 header:
   overlay_color: "#5e616c"
-  overlay_image: DC_Top_image.jpg
+  overlay_image: Cyton_main.JPG
 ---
 
 Please find more information from this blog:
