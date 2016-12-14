@@ -9,4 +9,4 @@ header:
 
 Please find more information from this blog:
 
-[http://lanking-cyton.blogspot.com/]
+[Go to Blooger](http://lanking-cyton.blogspot.com/)
