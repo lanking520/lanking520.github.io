@@ -9,7 +9,7 @@ header:
 
 # Who Am I?
 
-My name is Qing Lan, a Graduated Software/Mechatronics Engineer. I have received my First Class Honor from University of Liverpool with an additional Awards (with 100 Pounds) for best Final Year Project. Currently I am doing my degree in Columbia University in the area of Computer Engineering.
+My name is Qing Lan, a Graduated Software/Mechatronics Engineer. I have received my First Class Honor from University of Liverpool with an additional Awards (with 100 Pounds) for best Final Year Project. Currently I am doing my degree in Columbia University in the area of Computer Engineering. Currently I am a Research Assistant in Internet Real-Time Lab, Columbia University.
 
 ## Personal Evaluation
 
