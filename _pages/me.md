@@ -15,7 +15,7 @@ My name is Qing Lan, a Graduated Software/Mechatronics Engineer. I have received
 
 ### Skill set
 - Programming Language: Java(Strict coding), JavaScript(hard to say), C/C++ (Electrical Engineer Level), Python(for fun)
-- Anrdoid App Development: Java, XML in Android Studio. Solution: EventBus Architecture
+- Android App Development: Java, XML in Android Studio. Solution: EventBus Architecture
 - Web App Development: JQuery, AngularJS (Preferred), NodeJS(with express), Python Flask
 - Databases: PostgreSQL, MongoDB
 - Data scraping: Scrapy, BeautifulSoup, requests, my personal HTTP library
