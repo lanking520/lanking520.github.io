@@ -16,9 +16,13 @@ My name is Qing Lan, a Graduated Software/Mechatronics Engineer. I have received
 ### Skill set
 - Programming Language: Java(Strict coding), JavaScript(hard to say), C/C++ (Electrical Engineer Level), Python(for fun)
 - Android App Development: Java, XML in Android Studio. Solution: EventBus Architecture
+- Cloud Computing Solution: ElasticSearch, Kafka, AWS SQS, SNS, Lambda, S3, EC2, Beanstalk
+- Machine Learning Architect: Spark on Google-Dataproc, AWS Machine Learning, NVIDIA DGX
 - Web App Development: JQuery, AngularJS (Preferred), NodeJS(with express), Python Flask
 - Databases: PostgreSQL, MongoDB
 - Data scraping: Scrapy, BeautifulSoup, requests, my personal HTTP library
+- Data Processing: Personal Data Cleaning Library, Word2Vec-GloVe-TFIDF-Infersent
+- Machine Learning: Experienced in general Classification + Clustering 
 
 ### Fast learner
 - 72 hours: Solve Physics/Math modelling problem in a team and won several prizes
